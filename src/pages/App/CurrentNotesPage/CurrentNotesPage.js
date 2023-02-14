@@ -1,6 +1,6 @@
 import { checkToken } from "../../../utilities/users-service"
 
-export default function OrderHistoryPage() {
+export default function CurrentNotesPage() {
 
     async function handleCheckToken() {
         checkToken()
@@ -9,8 +9,8 @@ export default function OrderHistoryPage() {
 
     return (
         <>
-            <h2>OrderHistoryPage</h2>
-            <button onClick={handleCheckToken}>Check When My Login Expires</button>
+            <h2>Your Notes</h2>
+            <button onClick={handleCheckToken}>check my notes</button>
         </>
         )
 }

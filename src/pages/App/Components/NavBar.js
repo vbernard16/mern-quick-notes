@@ -15,9 +15,9 @@ export default function NavBar({ user, setUser }){
     return(
         <header>
             <ul className="navbar">
-                <Link to="/orders">Order History</Link>
+                <Link to="/notes">Your Notes</Link>
                     &nbsp; | &nbsp;
-                <Link to="/orders/new">New Order</Link>
+                <Link to="/notes/new">Create New Notes</Link>
                 &nbsp;
                 <span>Welcome, {user.name}</span>
                 &nbsp;&nbsp;
